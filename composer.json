@@ -6,18 +6,27 @@
     },
     "require": {
         "php": ">=5.3.3",
+
         "symfony/symfony": "2.1.*",
-        "doctrine/orm": "2.2.*",
-        "doctrine/doctrine-bundle": "dev-master",
-        "twig/extensions": "dev-master",
         "symfony/assetic-bundle": "dev-master",
         "symfony/swiftmailer-bundle": "dev-master",
         "symfony/monolog-bundle": "dev-master",
+
+        "doctrine/orm": "2.2.*",
+        "doctrine/doctrine-bundle": "dev-master",
+
+        "friendsofsymfony/user-bundle": "*",
+
+        "jms/di-extra-bundle": "1.0.*",
+        "jms/security-extra-bundle": "1.1.*",
+
+        "ornicar/message-bundle": "*",
+
         "sensio/distribution-bundle": "dev-master",
         "sensio/framework-extra-bundle": "dev-master",
         "sensio/generator-bundle": "dev-master",
-        "jms/security-extra-bundle": "1.1.*",
-        "jms/di-extra-bundle": "1.0.*"
+
+        "twig/extensions": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
