@@ -2,3 +2,7 @@
 #_internal:
 #    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #    prefix:   /_internal
+
+vbulletin_showthread:
+    pattern: /showthread\.php
+    defaults: { _controller: CitadelLegacyBundle:vBulletin:showthread }
