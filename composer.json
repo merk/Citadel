@@ -2,6 +2,7 @@
     "autoload": {
         "psr-0": { "": "src/" }
     },
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
 

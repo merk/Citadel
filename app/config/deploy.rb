@@ -1,6 +1,6 @@
 set :application,         "ozfortress"
 set :domain,              "ozfortress.com"
-set :deploy_to,           "/home/ozfortress/sites/#{domain}"
+set :deploy_to,           "/home/ozfortress/citadel"
 set :app_path,            "app"
 set :user,                "ozfortress"
 set :use_sudo,            false
