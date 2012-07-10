@@ -18,5 +18,5 @@ role :db,                 "demoman.ozfortress.com", :primary => true
 
 set :dump_assetic_assets, true
 set :use_composer,        true
-set :shared_files,        ["app/config/parameters.ini"]
+set :shared_files,        ["app/config/parameters.yml"]
 # set :shared_children,   []
